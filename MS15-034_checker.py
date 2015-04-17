@@ -35,8 +35,5 @@ def main(argv):
     except Exception as e:
         print "Error! Check if host is online.."
 
-
-
-
 if __name__ == "__main__":
     main(sys.argv)
