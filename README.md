@@ -8,8 +8,8 @@ Jay Turla
 python MS15-034_checker.py https://iamanexample.com
 
 # Reference:
-Vulnerability in HTTP.sys Could Allow Remote Code Execution (MS15-034)
-CVE-2015-1635
+- Vulnerability in HTTP.sys Could Allow Remote Code Execution (MS15-034)
+- CVE-2015-1635
 
 
 
