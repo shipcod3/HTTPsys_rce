@@ -7,7 +7,7 @@
 import sys, requests
 
 def usage(argv):
-    print "Usage: python MS15-034_checker.py https://google.com"
+    print "Usage: python MS15-034_checker.py https://iamanexampleonly.com"
 
 def main(argv):
 
