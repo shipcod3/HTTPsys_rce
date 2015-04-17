@@ -25,6 +25,7 @@ def main(argv):
 
         if r.status_code == 416 and 'Requested Range Not Satisfiable' in r.reason:
             print "[-] Vulnerable"
+            print r.text
 
         elif 'The request has an invalid header name' in r.reason:
             print "[+] Not Vulnerable - Patched"
